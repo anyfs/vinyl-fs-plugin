@@ -1,0 +1,42 @@
+{
+  "name": "anyfs-vinyl-fs-plugin",
+  "version": "0.1.0",
+  "description": "vinyl-fs plugin for AnyFS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyfs/vinyl-fs-plugin.git"
+  },
+  "keywords": [
+    "anyfs",
+    "vinyl-fs",
+    "gulp",
+    "src",
+    "dest"
+  ],
+  "author": "Liu Dong <ddliuhb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anyfs/vinyl-fs-plugin/issues"
+  },
+  "homepage": "https://github.com/anyfs/vinyl-fs-plugin",
+  "dependencies": {
+    "anyfs-glob-stream-plugin": "*",
+    "duplexify": "^3.2.0",
+    "merge-stream": "^0.1.7",
+    "object-assign": "^2.0.0",
+    "strip-bom": "^1.0.0",
+    "through2": "^0.6.1",
+    "vinyl": "^0.4.0",
+    "vinyl-filter-since": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^5.2.0",
+    "through2": "^0.6.5",
+    "when": "^3.7.2"
+  }
+}
