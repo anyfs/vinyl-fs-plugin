@@ -34,9 +34,9 @@
     "vinyl-filter-since": "^2.0.0"
   },
   "devDependencies": {
+    "anyfs": "^0.1.4",
     "mocha": "^2.2.4",
     "should": "^5.2.0",
-    "through2": "^0.6.5",
     "when": "^3.7.2"
   }
 }
